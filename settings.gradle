@@ -1,0 +1,4 @@
+rootProject.name = 'xg201802104070'
+include 'xg18'
+findProject(':xg18')?.name = 'xg201802104070'
+
