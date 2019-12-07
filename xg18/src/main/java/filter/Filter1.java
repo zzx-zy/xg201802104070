@@ -7,8 +7,7 @@ import java.io.IOException;
 import java.util.Calendar;
 
 
-@WebFilter(filterName = "Filter 1",
-        urlPatterns = "/*"/*仅所有资源进行过滤*/)
+@WebFilter(filterName = "Filter 1",urlPatterns = "/*"/*仅所有资源进行过滤*/)
 public class Filter1 implements Filter {
     @Override
     public void doFilter(ServletRequest req, ServletResponse resp, FilterChain chain)
